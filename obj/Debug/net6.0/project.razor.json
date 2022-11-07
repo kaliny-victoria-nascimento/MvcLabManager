@@ -16298,6 +16298,11 @@
   "RootNamespace": "MvcLabManager",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Computer\\Delete.cshtml",
+      "TargetPath": "Views\\Computer\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -16305,6 +16310,21 @@
     {
       "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Computer\\Index.cshtml",
       "TargetPath": "Views\\Computer\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Lab\\Delete.cshtml",
+      "TargetPath": "Views\\Lab\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Computer\\Create.cshtml",
+      "TargetPath": "Views\\Computer\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Lab\\Index.cshtml",
+      "TargetPath": "Views\\Lab\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16318,8 +16338,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Lab\\Show.cshtml",
+      "TargetPath": "Views\\Lab\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Computer\\Update.cshtml",
+      "TargetPath": "Views\\Computer\\Update.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16335,6 +16365,16 @@
     {
       "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Lab\\Create.cshtml",
+      "TargetPath": "Views\\Lab\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kalin\\Desktop\\MvcLabManager\\Views\\Lab\\Update.cshtml",
+      "TargetPath": "Views\\Lab\\Update.cshtml",
       "FileKind": "mvc"
     },
     {

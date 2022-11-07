@@ -1,0 +1,25 @@
+@model MvcLabManager.Models.Computer
+
+@{
+    ViewData["Title"] = "Atualizar Computador";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Deseja editar alguma informação do computador? Basta responder o formulário abaixo:</p>
+
+    <form method="post">
+        <p>
+            <label for="id"><strong>Id:</strong></label>
+            <input asp-for="@Model.Id" readonly>
+        </p>
+        <p>
+            <label for="ram"><strong>RAM: </strong></label>
+            <input asp-for="@Model.Ram" required>
+        </p>
+          <p>
+            <label for="processor"><strong>Processador: </strong></label>
+            <input asp-for="@Model.Processor" required>
+        </p>
+       
+        <button asp-controller="Computer" asp-action="Update" class="btn btn-outline-success">Atualizar</button>
+    </form>
