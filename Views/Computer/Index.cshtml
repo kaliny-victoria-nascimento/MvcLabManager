@@ -1,0 +1,37 @@
+@model IEnumerable<MvcLabManager.Models.Computer>
+
+@{
+    ViewData["Title"] = "Computadores";
+}
+<h1>@ViewData["Title"]</h1>
+
+@if(Model.Count() == 0)
+{
+    <p>Nenhum computador cadastrado.</p>
+}   
+else 
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Ram</th>
+                <th>Processor</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var computer in Model)
+            {
+                <tr>
+                    <th>@computer.Id</th>
+                    <th>@computer.Ram</th>
+                    <th>@computer.Processor</th>
+                    <th>
+                        <a href="/Computer/Show/@computer.Id" class="btn btn-primary btn-sn">Ver</a>
+                    </th>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
